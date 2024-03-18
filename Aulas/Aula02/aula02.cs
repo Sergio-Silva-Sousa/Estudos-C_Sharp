@@ -6,9 +6,9 @@ namespace Aula02
 	{
 		static void Main(string[] args)
 		{
-			Console.Write("kkk");
+		  Console.Write("Voce disse:");
 			if(args != null && args.GetLength(0)>0){
-                Console.Write(args.GetValue(0));
+                Console.WriteLine(args.GetValue(0));
             }
 		}
 	}
